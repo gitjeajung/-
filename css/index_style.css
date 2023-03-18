@@ -1,0 +1,268 @@
+*{box-sizing: border-box;}
+
+.container{
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffffff;
+    color: #222328;
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+    color: #222328;
+}
+
+.mid{
+    display: flex;
+
+}
+
+/************************************  header  ********************************************/
+
+header{
+    width: 15%;
+    background-color: blanchedalmond;
+    border-right: 1px solid rgba(0, 0, 0, 0.096);
+}
+nav{
+    background-color: blanchedalmond;
+}
+
+nav>ul{
+    padding: 0;
+}
+
+.logo>a>img{
+    width: 120%;
+    margin-top: 10px;
+    margin-left: -15px;
+}
+
+.main_menu{
+    list-style-type: none;
+    line-height: 40px;
+    text-align: center;
+}
+
+.main_menu>ul{
+    padding: 0;
+}
+
+.main_menu>a{
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.sub_menu{
+    list-style-type: none;
+    display: none;
+}
+
+.main_menu:hover, .sub_menu:hover{
+    background-color: #cac9c99a;
+}
+
+/************************************  main  ********************************************/
+
+main{
+    width: 85%;
+    background-color: blanchedalmond;
+}
+
+/************************************  slider  ********************************************/
+
+.slider{
+    width: 100%;
+    height: 350px;
+    overflow: hidden;
+}
+
+/************************************  notice_gallry  ********************************************/
+
+.notice_gallry{
+    width: 33.333334%;
+    height: 200px;
+    position: relative;
+}
+
+.tab>ul{
+    display: flex;
+    margin: 0;
+    
+}
+
+.tab>ul>li{
+    list-style-type: none;
+    margin-right: 5px;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+/************************************  notice  ********************************************/
+
+
+.notice{
+    background-color: gold;
+    height: 170px;
+}
+
+.notice>ul{
+    margin: 0;
+    padding-top: 10px;
+    
+}
+
+.notice>ul>li:hover{
+    background-color: goldenrod;
+}
+
+.color{
+    background-color: gold;
+}
+
+/************************************  gallry  ********************************************/
+
+
+.gallry{
+    display: flex;
+    height: 170px;
+    background-color: gold;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+    display: none;
+
+}
+
+.img1,.img2,.img3{
+    width: 80px;
+    height: 130px;
+    object-fit: cover;
+}
+
+/************************************  popup  ********************************************/
+
+.popup{
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    border: 1px solid black;
+    top: -130px;
+    left: 330px;
+    background-color: aliceblue;
+    display: none;
+}
+
+.popup_page{
+ position: relative;
+}
+
+.popup_page>div{
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+
+.popup_page>div>h1{
+    padding-left: 15px;
+    font-weight: 800;
+}
+
+.popup_page>p{
+    text-align: left;
+    padding: 10px;
+}
+
+.popup_page>button{
+    position: absolute;
+    top: 250px;
+    left: 340px;
+}
+
+/************************************  banner  ********************************************/
+
+.banner{
+    width: 33.3333334%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.banner>a>img{
+    margin: 10px;
+}
+
+/************************************  barogagi  ********************************************/
+
+.barogagi{
+    width: 33.333334%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+
+.dan{
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/************************************  footer  ********************************************/
+
+footer{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    
+}
+
+.footer_logo{
+    width: 170px;
+    display: flex;
+    float: left;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.footer_text{
+    width: 650px;
+    margin-left: 30px;
+}
+
+.footer_menu{
+    display: grid;
+    height: 50px;
+    text-align: center;
+}
+
+.footer_menu>ul{
+    display: flex;
+    margin-left: 55px;
+    margin-top: 30px;
+    
+}
+
+.footer_menu>ul>li{
+    list-style-type: none;
+    margin-right: 10px;
+    
+}
+
+.footer_menu>ul>li:last-child{
+    margin: 0;
+}
+
+.footer_copy{
+    
+    height: 50px;
+    text-align: center;
+    align-items: center;
+}
+
+.footer_copy>p{
+    margin: 0;
+}
